@@ -1,1 +1,44 @@
-{}
+{
+	"instructions def": {
+		"scope": "python",
+		"prefix": "!inst",
+		"body": [
+			"@instruction",
+            "def ${1:def_name}(${2:signer: Signer}):"
+		],
+		"description": "@instructions with definition"
+	},
+	"class": {
+		"scope": "python",
+		"prefix": "!cls",
+		"body": [
+            "class ${1:class_name}(${2:Account}):"
+		],
+		"description": "class in seahorse"
+	},
+	"CpiAccount": {
+		"scope": "python",
+		"prefix": "!cpi",
+		"body": [
+            "CpiAccount(${1:account},${2:mut=False},${3:signer=False},seeds=[])"
+		],
+		"description": "CpiAccount class with available parameters"
+	},
+	"Pyth": {
+		"scope": "python",
+		"prefix": "!pyth",
+		"body": [
+            "from seahorse.pyth import *"
+		],
+		"description": "Pyth import statement shortcut"
+	},
+	"Prelude": {
+		"scope": "python",
+		"prefix": "!prld",
+		"body": [
+            "from seahorse.prelude import *"
+		],
+		"description": "Prelude import statement shortcut"
+	}
+
+}
