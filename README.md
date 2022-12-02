@@ -1,6 +1,6 @@
 
 # seahorse-snippets
-VS code extension for seahorse lang snippets to help writing code in seahorse easy.
+VS code extension for seahorse language snippets to help writing code in seahorse easy.
 
 ## Features
 
