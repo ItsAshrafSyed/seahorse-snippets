@@ -1,14 +1,20 @@
-# seahorse-snippets README
 
-This is the README for your extension "seahorse-snippets". After writing up a brief description, we recommend including the following sections.
+# seahorse-snippets
+VS code extension for seahorse lang snippets to help writing code in seahorse easy.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+You can accesss the snippet inside the code with a prefix "!" following the abbrivate.
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+| Triggers | Snippets |
+| ------------- | ------------- |
+|`!pyth`|`from seahorse.pyth import *`|
+|`!prld`|`from seahorse.prelude import *`|
+| `!inst`  | `@instruction`|
+|           | `def def_name(signer: Signer):`|  
+| `!cls`  | `class class_name(Account):`  |
+|`!cpi`|`CpiAccount(account,mut=False,signer=False,seeds=[])`|
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+  
 
