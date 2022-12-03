@@ -4,7 +4,7 @@ VS code extension for seahorse language snippets to help writing code in seahors
 
 ## Features
 
-You can accesss the snippet inside the code with a prefix "!" following the abbrivate.
+You can accesss the snippet inside the code with a prefix "!" following the acronym.
 
 
 | Triggers | Snippets |
